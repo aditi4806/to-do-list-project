@@ -1,0 +1,123 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background:darkcyan;
+}
+p{
+    margin-top: 100px;
+    padding: 70px;
+    text-align: center;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: xxx-large;
+
+}
+.container{
+    width: 40%;
+    top: 55%;
+    left: 50%;
+    background: black;
+    border-radius: 10px;
+    min-width: 450px;
+    position: absolute;
+    min-height: 100px;
+    transform: translate(-50%,-50%);
+}
+#newtask{
+    position: relative;
+    padding: 30px 20px;
+}
+#newtask input{
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+}
+
+#newtask input:focus{
+    outline: none;
+    border-color: #0d75ec;
+}
+#newtask button{
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #0d75ec;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+}
+#tasks{
+    border-radius: 10px;
+    width: 100%;
+    background-color:palegoldenrod;
+    margin-top: 10px;
+    background-image: url(images/Checked Image.png);
+    background-size: cover;
+    background-position: center;
+    top:12px;
+    left:8px
+
+}
+
+.task{
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #939697;
+    cursor: pointer;
+    background-color: #c5e1e6;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+}
+.task span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.task button{
+    background-color: #6583e5;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+}
+.status-icons {
+    display: flex;
+    align-items: center;
+}
+
+.check-icon,
+.cross-icon {
+    width: 20px; /* Adjust the size as needed */
+    height: 20px; /* Adjust the size as needed */
+    margin-left: 10px; /* Adjust the spacing as needed */
+}
+.task.completed {
+    background-color: #a0d9ff; /* Set a background color for completed tasks */
+    text-decoration: line-through; /* Add strikethrough for completed tasks */
+}
