@@ -8,7 +8,6 @@ This is a simple and clean To-Do List app made using HTML, CSS, and JavaScript.
 - Data stored in localStorage
 
 ## Preview
-![Screenshot](images/to%20do%20list.png)
 ![To-Do Preview](images/todo_screenshot.png)
 
 ## How to Run
