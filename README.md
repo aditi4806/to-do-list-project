@@ -15,4 +15,4 @@ Just open `index.html` in your browser.
 
 ---
 
-Made with ❤️ by Asmita Surwase is this right
+Made with ❤️ by Asmita Surwase
